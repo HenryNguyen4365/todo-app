@@ -5,7 +5,7 @@
 }
 .add {
     position: absolute;
-    top: 20%;
+    top: 100px;
     left: 50%;
     transform: translate(-50%, -50%);
     border: none;
@@ -22,10 +22,11 @@
 }
 
 .home-detail {
+    height: auto;
     position: absolute;
-    top: 50%;
+    top: 150px;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
