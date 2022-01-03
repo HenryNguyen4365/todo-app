@@ -1,0 +1,36 @@
+.signin-template {
+    width: 100%;
+    max-width: 400px;
+    padding: 0 50px;
+    margin: 0 auto;
+    margin-top: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+input {
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(235, 235, 235);
+}
+
+.btn {
+    width: 100%;
+    margin-top: 50px;
+    border: none;
+    background-color: rgb(123, 193, 255);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(91, 178, 255);
+}
